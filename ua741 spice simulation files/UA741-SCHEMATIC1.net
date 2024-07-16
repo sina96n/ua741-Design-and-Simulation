@@ -1,0 +1,46 @@
+* source UA741
+R_R3         -VEE N02404  50k  
+Q_Q1         N01520 VI1 N016952 QbreakN 
+Q_Q4         N02373 N01337 N017212 QbreakP 
+Q_Q22         N02373 N13034 -VEE QbreakN 
+R_R2         -VEE N02742  1k  
+Q_Q7         +VCC N02342 N02404 QbreakN 
+V_V6         VI4 0  
++SIN 0 -1m 1k 0 0 0
+Q_Q16         +VCC N02373 N04255 QbreakN 
+Q_Q2         N01520 VI4 N017212 QbreakN 
+Q_Q18         N09586 N09518 N09547 QbreakN 
+Q_Q6         N02373 N02404 N02742 QbreakN 
+Q_Q17         N05169 N04255 N05428 QbreakN 
+Q_Q12         N00800 N00800 +VCC Qbreakp 
+Q_Q8         N01520 N01520 +VCC QbreakP 
+R_R5         N00829 N00800  39k  
+R_R7         N11210 VOUT  27  
+R_R8         -VEE N05428  100  
+Q_Q23         -VEE N05169 N09547 QbreakP 
+Q_Q5         N02342 N02404 N02713 QbreakN 
+Q_Q20         -VEE N09547 N11210 QbreakP 3
+Q_Q19         N09586 N09586 N09518 QbreakN 
+Q_Q13B         N05169 N00800 +VCC QbreakP 0.75
+Q_Q9         N01337 N01520 +VCC QbreakP 
+R_R9         -VEE N04255  50k  
+C_Cc         N02373 N05169  30p  
+Q_Q21         N13034 N11210 VOUT QbreakP 
+R_R10         N09547 N09518  40k  
+Q_Q10         N01337 N00829 N01173 QbreakN 
+Q_Q13A         N09586 N00800 +VCC QbreakP 0.25
+V_Vin         VI1 0  
++SIN 0 1m 1k 0 0 0
+R_R11         -VEE N13034  50k  
+R_R4         -VEE N01173  5k  
+V_V3         VI6 0 DC 0Vdc AC 1Vac 
+V_V1         +VCC 0 15Vdc
+Q_Q14         +VCC N09586 N10844 QbreakN 3
+R_R15         0 VOUT  1k  
+V_V2         -VEE 0 -15Vdc
+Q_Q24         N13034 N13034 -VEE QbreakN 
+Q_Q3         N02342 N01337 N016952 QbreakP 
+R_R1         -VEE N02713  1k  
+R_R6         VOUT N10844  27  
+Q_Q11         N00829 N00829 -VEE Qbreakn 
+Q_Q15         N09586 N10844 VOUT QbreakN 
